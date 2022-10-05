@@ -1,0 +1,144 @@
+
+/* Head section` */
+#header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #191970;
+    
+    color: whitesmoke;
+}
+
+/* Nav Section */
+.logo{
+    width: 30%;
+    
+}
+
+
+.content{
+    display: flex;    
+    height: 100%;
+    justify-content: space-evenly;
+    
+    width: 70%;
+}
+
+/* Home Section */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    padding-top: 10px;
+}
+
+#home::before{
+    content: "";
+    background: url('fbr logo.png') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    /* background-repeat: no-repeat; */
+}
+
+
+/* Body Section */
+.middle{
+    background-color: #475EEE;
+    margin-top: 0;
+}
+.body-message{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: cursive;
+    padding: 10px
+}
+.body-content{
+    background-color: ;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.second-middle{
+    
+    background-color: #475EEE;
+}
+.second-middle-message{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.container{
+    width: 100%;
+    box-sizing: border-box;
+    height: 200px;
+    position: relative;
+    
+}
+
+
+.foot{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.footer{
+    margin-top: 20px;
+    padding: 10px;    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 750px) {
+    .body-content {      
+      background-color: #475EEE;
+      display: block;
+      padding: 10px;
+      
+    }
+    .header .content{
+      display: block;
+      width: 100%;
+    }
+    
+    .second-middle-message{
+        display: block;        
+    background-color: #475EEE;
+        
+    }
+    .card{
+        padding: 20px;
+        margin: 10px;
+    }
+  }
